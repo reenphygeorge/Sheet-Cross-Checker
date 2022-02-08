@@ -1,5 +1,5 @@
 # sheet-cross-checker
-A python program to extract details of common contact-nos from two excel sheets.
+A python program to extract details of common contact-nos from two excel sheets and export the details as a text file.
 
 # How to use:
 * Clone this repo
