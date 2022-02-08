@@ -17,7 +17,6 @@ email1=""
 
 # Function Definitions
 def pos_detect():
-
     global row1, row2, contact1, contact2, name1, email1
     row1 = ws1.max_row
     row2 = ws2.max_row
@@ -39,7 +38,7 @@ def pos_detect():
 
 def check_writer():
     f = open('details.txt' , 'a')
-
+    
     for i in range(2,row1+1):
         cn1 = ws1[get_column_letter(contact1) + str(i)].value
         for j in range(2,row2+1):
